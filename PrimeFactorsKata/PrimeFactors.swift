@@ -11,10 +11,6 @@ class PrimeFactors {
             candidate += 1
         }
         
-        if n > 1 {
-            primes.append(n)
-        }
-        
         return primes
     }
 }
