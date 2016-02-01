@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1A591C1C5F910C00180558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A591B1C5F910C00180558 /* AppDelegate.swift */; };
+		EA1A591E1C5F910C00180558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1A591D1C5F910C00180558 /* Assets.xcassets */; };
+		EA1A59211C5F910C00180558 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA1A591F1C5F910C00180558 /* MainMenu.xib */; };
+		EA1A592C1C5F910C00180558 /* PrimeFactorsKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A592B1C5F910C00180558 /* PrimeFactorsKataTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA1A59281C5F910C00180558 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA1A59101C5F910C00180558 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1A59171C5F910C00180558;
+			remoteInfo = PrimeFactorsKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA1A59181C5F910C00180558 /* PrimeFactorsKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeFactorsKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1A591B1C5F910C00180558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA1A591D1C5F910C00180558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA1A59201C5F910C00180558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EA1A59221C5F910C00180558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1A59271C5F910C00180558 /* PrimeFactorsKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeFactorsKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1A592B1C5F910C00180558 /* PrimeFactorsKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeFactorsKataTests.swift; sourceTree = "<group>"; };
+		EA1A592D1C5F910C00180558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1A59151C5F910C00180558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1A59241C5F910C00180558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1A590F1C5F910C00180558 = {
+			isa = PBXGroup;
+			children = (
+				EA1A591A1C5F910C00180558 /* PrimeFactorsKata */,
+				EA1A592A1C5F910C00180558 /* PrimeFactorsKataTests */,
+				EA1A59191C5F910C00180558 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1A59191C5F910C00180558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A59181C5F910C00180558 /* PrimeFactorsKata.app */,
+				EA1A59271C5F910C00180558 /* PrimeFactorsKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1A591A1C5F910C00180558 /* PrimeFactorsKata */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A591B1C5F910C00180558 /* AppDelegate.swift */,
+				EA1A591D1C5F910C00180558 /* Assets.xcassets */,
+				EA1A591F1C5F910C00180558 /* MainMenu.xib */,
+				EA1A59221C5F910C00180558 /* Info.plist */,
+			);
+			path = PrimeFactorsKata;
+			sourceTree = "<group>";
+		};
+		EA1A592A1C5F910C00180558 /* PrimeFactorsKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A592B1C5F910C00180558 /* PrimeFactorsKataTests.swift */,
+				EA1A592D1C5F910C00180558 /* Info.plist */,
+			);
+			path = PrimeFactorsKataTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1A59171C5F910C00180558 /* PrimeFactorsKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1A59301C5F910C00180558 /* Build configuration list for PBXNativeTarget "PrimeFactorsKata" */;
+			buildPhases = (
+				EA1A59141C5F910C00180558 /* Sources */,
+				EA1A59151C5F910C00180558 /* Frameworks */,
+				EA1A59161C5F910C00180558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeFactorsKata;
+			productName = PrimeFactorsKata;
+			productReference = EA1A59181C5F910C00180558 /* PrimeFactorsKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA1A59261C5F910C00180558 /* PrimeFactorsKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1A59331C5F910C00180558 /* Build configuration list for PBXNativeTarget "PrimeFactorsKataTests" */;
+			buildPhases = (
+				EA1A59231C5F910C00180558 /* Sources */,
+				EA1A59241C5F910C00180558 /* Frameworks */,
+				EA1A59251C5F910C00180558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1A59291C5F910C00180558 /* PBXTargetDependency */,
+			);
+			name = PrimeFactorsKataTests;
+			productName = PrimeFactorsKataTests;
+			productReference = EA1A59271C5F910C00180558 /* PrimeFactorsKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA1A59101C5F910C00180558 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TM;
+				TargetAttributes = {
+					EA1A59171C5F910C00180558 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EA1A59261C5F910C00180558 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EA1A59171C5F910C00180558;
+					};
+				};
+			};
+			buildConfigurationList = EA1A59131C5F910C00180558 /* Build configuration list for PBXProject "PrimeFactorsKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA1A590F1C5F910C00180558;
+			productRefGroup = EA1A59191C5F910C00180558 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1A59171C5F910C00180558 /* PrimeFactorsKata */,
+				EA1A59261C5F910C00180558 /* PrimeFactorsKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1A59161C5F910C00180558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1A591E1C5F910C00180558 /* Assets.xcassets in Resources */,
+				EA1A59211C5F910C00180558 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1A59251C5F910C00180558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1A59141C5F910C00180558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1A591C1C5F910C00180558 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1A59231C5F910C00180558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1A592C1C5F910C00180558 /* PrimeFactorsKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA1A59291C5F910C00180558 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1A59171C5F910C00180558 /* PrimeFactorsKata */;
+			targetProxy = EA1A59281C5F910C00180558 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA1A591F1C5F910C00180558 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1A59201C5F910C00180558 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA1A592E1C5F910C00180558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA1A592F1C5F910C00180558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA1A59311C5F910C00180558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PrimeFactorsKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TM.PrimeFactorsKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA1A59321C5F910C00180558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PrimeFactorsKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TM.PrimeFactorsKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA1A59341C5F910C00180558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PrimeFactorsKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TM.PrimeFactorsKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeFactorsKata.app/Contents/MacOS/PrimeFactorsKata";
+			};
+			name = Debug;
+		};
+		EA1A59351C5F910C00180558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PrimeFactorsKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TM.PrimeFactorsKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeFactorsKata.app/Contents/MacOS/PrimeFactorsKata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1A59131C5F910C00180558 /* Build configuration list for PBXProject "PrimeFactorsKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1A592E1C5F910C00180558 /* Debug */,
+				EA1A592F1C5F910C00180558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1A59301C5F910C00180558 /* Build configuration list for PBXNativeTarget "PrimeFactorsKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1A59311C5F910C00180558 /* Debug */,
+				EA1A59321C5F910C00180558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA1A59331C5F910C00180558 /* Build configuration list for PBXNativeTarget "PrimeFactorsKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1A59341C5F910C00180558 /* Debug */,
+				EA1A59351C5F910C00180558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA1A59101C5F910C00180558 /* Project object */;
+}
