@@ -1,6 +1,10 @@
 class PrimeFactors {
-    static func generate(n:Int)->[Int]{
+    static func generate(var n:Int)->[Int]{
         var primes = [Int]()
+        if (n % 2) == 0 {
+            primes.append(2)
+            n /= 2
+        }
         if n > 1 {
             primes.append(n)
         }
