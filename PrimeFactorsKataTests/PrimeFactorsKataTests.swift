@@ -34,4 +34,8 @@ class PrimeFactorsKataTests: XCTestCase {
     func testEight() {
         XCTAssertEqual(list(2,2,2), PrimeFactors.generate(8))
     }
+    
+    func testNine() {
+        XCTAssertEqual(list(3,3), PrimeFactors.generate(9))
+    }
 }
