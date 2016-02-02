@@ -4,9 +4,10 @@ class PrimeFactors {
         var primes = [Int]()
         var primeFactor = n
         
-        while primeFactor % 2 == 0 {
-            primeFactor = primeFactor / 2
-            primes.append(2)
+        let divisor = 2
+        while primeFactor % divisor == 0 {
+            primeFactor = primeFactor / divisor
+            primes.append(divisor)
         }
         
         if primeFactor > 1 {
