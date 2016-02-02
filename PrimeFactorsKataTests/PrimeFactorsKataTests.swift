@@ -12,4 +12,8 @@ class PrimeFactorsKataTests: XCTestCase {
     func testTwoGeneratesTwo() {
         XCTAssertEqual([2], PrimeFactors.generate(2))
     }
+    
+    func testThreeGeneratesThree() {
+        XCTAssertEqual([3], PrimeFactors.generate(3))
+    }
 }
