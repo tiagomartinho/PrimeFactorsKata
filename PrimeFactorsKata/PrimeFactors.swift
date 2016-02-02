@@ -1,8 +1,18 @@
 class PrimeFactors {
     static func generate(n:Int)->[Int]{
-        if n > 1 {
-            return [n]
+        
+        var primes = [Int]()
+        var primeFactor = n
+        
+        if primeFactor / 2 > 1 {
+            primeFactor = primeFactor / 2
+            primes.append(primeFactor)
         }
-        return [Int]()
+        
+        if primeFactor > 1 {
+            primes.append(primeFactor)
+        }
+        
+        return primes
     }
 }
