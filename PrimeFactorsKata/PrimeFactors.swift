@@ -4,9 +4,11 @@ class PrimeFactors {
         var primes = [Int]()
         var primeFactor = n
         
-        if primeFactor / 2 > 1 {
-            primeFactor = primeFactor / 2
-            primes.append(primeFactor)
+        if primeFactor % 2 == 0 {
+            if primeFactor / 2 > 1 {
+                primeFactor = primeFactor / 2
+                primes.append(primeFactor)
+            }
         }
         
         if primeFactor > 1 {
