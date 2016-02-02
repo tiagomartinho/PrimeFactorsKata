@@ -43,4 +43,12 @@ class PrimeFactorsKataTests: XCTestCase {
     func testTen() {
         XCTAssertEqual([2,5], PrimeFactors.generate(10))
     }
+    
+    func test864() {
+        XCTAssertEqual([2,2,2,2,2,3,3,3], PrimeFactors.generate(864))
+    }
+    
+    func test144() {
+        XCTAssertEqual([2,2,2,2,3,3], PrimeFactors.generate(144))
+    }
 }
