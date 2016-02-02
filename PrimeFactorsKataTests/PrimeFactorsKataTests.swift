@@ -2,7 +2,10 @@ import XCTest
 @testable import PrimeFactorsKata
 
 class PrimeFactorsKataTests: XCTestCase {
-    func testExample() {
-        XCTAssertEqual(PrimeFactors.generate(0), [Int]())
+    
+    let emptyList = [Int]()
+    
+    func testOneGeneratesEmptyList() {
+        XCTAssertEqual(emptyList, PrimeFactors.generate(1))
     }
 }
