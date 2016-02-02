@@ -7,7 +7,7 @@ class PrimeFactors {
         if primeFactor % 2 == 0 {
             if primeFactor / 2 > 1 {
                 primeFactor = primeFactor / 2
-                primes.append(primeFactor)
+                primes.append(2)
             }
         }
         
