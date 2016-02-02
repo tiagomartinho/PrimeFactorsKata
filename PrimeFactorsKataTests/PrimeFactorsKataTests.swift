@@ -8,4 +8,8 @@ class PrimeFactorsKataTests: XCTestCase {
     func testOneGeneratesEmptyList() {
         XCTAssertEqual(emptyList, PrimeFactors.generate(1))
     }
+    
+    func testTwoGeneratesTwo() {
+        XCTAssertEqual([2], PrimeFactors.generate(2))
+    }
 }
