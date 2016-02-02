@@ -3,9 +3,8 @@ import XCTest
 
 class PrimeFactorsKataTests: XCTestCase {
     
-    let emptyList = [Int]()
-    
     func testOne() {
+        let emptyList = [Int]()
         XCTAssertEqual(emptyList, PrimeFactors.generate(1))
     }
     
@@ -31,5 +30,9 @@ class PrimeFactorsKataTests: XCTestCase {
     
     func testSeven() {
         XCTAssertEqual([7], PrimeFactors.generate(7))
+    }
+    
+    func testEight() {
+        XCTAssertEqual([2,2,2], PrimeFactors.generate(8))
     }
 }
