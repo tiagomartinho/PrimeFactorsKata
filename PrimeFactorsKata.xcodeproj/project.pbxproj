@@ -10,7 +10,7 @@
 		EA1A591C1C5F910C00180558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A591B1C5F910C00180558 /* AppDelegate.swift */; };
 		EA1A591E1C5F910C00180558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1A591D1C5F910C00180558 /* Assets.xcassets */; };
 		EA1A59211C5F910C00180558 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA1A591F1C5F910C00180558 /* MainMenu.xib */; };
-		EA1A592C1C5F910C00180558 /* PrimeFactorsKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A592B1C5F910C00180558 /* PrimeFactorsKataTests.swift */; };
+		EA1A592C1C5F910C00180558 /* PrimeFactorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A592B1C5F910C00180558 /* PrimeFactorsTests.swift */; };
 		EA1A59371C5F912100180558 /* PrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A59361C5F912100180558 /* PrimeFactors.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +31,7 @@
 		EA1A59201C5F910C00180558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		EA1A59221C5F910C00180558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA1A59271C5F910C00180558 /* PrimeFactorsKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeFactorsKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA1A592B1C5F910C00180558 /* PrimeFactorsKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeFactorsKataTests.swift; sourceTree = "<group>"; };
+		EA1A592B1C5F910C00180558 /* PrimeFactorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeFactorsTests.swift; sourceTree = "<group>"; };
 		EA1A592D1C5F910C00180558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA1A59361C5F912100180558 /* PrimeFactors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeFactors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,7 +84,7 @@
 		EA1A592A1C5F910C00180558 /* PrimeFactorsKataTests */ = {
 			isa = PBXGroup;
 			children = (
-				EA1A592B1C5F910C00180558 /* PrimeFactorsKataTests.swift */,
+				EA1A592B1C5F910C00180558 /* PrimeFactorsTests.swift */,
 				EA1A59391C5F912F00180558 /* Supporting Files */,
 			);
 			path = PrimeFactorsKataTests;
@@ -218,7 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA1A592C1C5F910C00180558 /* PrimeFactorsKataTests.swift in Sources */,
+				EA1A592C1C5F910C00180558 /* PrimeFactorsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +393,7 @@
 				EA1A59321C5F910C00180558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA1A59331C5F910C00180558 /* Build configuration list for PBXNativeTarget "PrimeFactorsKataTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +402,7 @@
 				EA1A59351C5F910C00180558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
