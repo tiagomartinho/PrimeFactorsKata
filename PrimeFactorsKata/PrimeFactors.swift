@@ -3,14 +3,12 @@ class PrimeFactors {
         var primes = [Int]()
         var remaining = n
         
-        if n % 2 == 0 {
-            if n / 2 > 1 {
-                remaining /= 2
-                primes.append(2)
-            }
+        while remaining % 2 == 0 {
+            remaining /= 2
+            primes.append(2)
         }
         
-        if n > 1 {
+        if remaining > 1 {
             primes.append(remaining)
         }
         
