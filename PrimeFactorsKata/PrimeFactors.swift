@@ -2,10 +2,14 @@ class PrimeFactors {
     static func generate(n:Int)->[Int]{
         var primes = [Int]()
         var remaining = n
+        var divisor = 2
         
-        while remaining % 2 == 0 {
-            remaining /= 2
-            primes.append(2)
+        while divisor < n {
+            while remaining % divisor == 0 {
+                remaining /= divisor
+                primes.append(divisor)
+            }
+            divisor += 1
         }
         
         if remaining > 1 {
