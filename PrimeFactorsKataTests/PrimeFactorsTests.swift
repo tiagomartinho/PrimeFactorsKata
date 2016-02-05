@@ -33,4 +33,8 @@ class PrimeFactorsTests: XCTestCase {
     func testEight() {
         XCTAssertEqual([2,2,2],PrimeFactors.generate(8))
     }
+    
+    func testNine() {
+        XCTAssertEqual([3,3],PrimeFactors.generate(9))
+    }
 }
