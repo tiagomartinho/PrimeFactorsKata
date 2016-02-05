@@ -9,9 +9,6 @@ class PrimeFactors {
             }
             divisor += 1
         }
-        if n > 1 {
-            primes.append(n)
-        }
         return primes
     }
 }
